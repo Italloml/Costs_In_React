@@ -23,6 +23,7 @@ function NewProject() {
           .then((data) => {
             console.log(data)
             // redirect
+            history.push('/projects', { message: 'Projeto criado com sucesso!' }) //  flash message
           })
           .catch((err) => console.log(err))
 

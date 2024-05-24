@@ -30,8 +30,8 @@ function ProjectForm({ handleSubmit, btnText, projectData }) {
     // metódo de submit
     const submit = (e) => {
         e.preventDefault()
-        console.log(project)
-        // handleSubmit(project)
+        // console.log(project)
+        handleSubmit(project)
     }
 
     function handleChange(e) {
@@ -57,6 +57,7 @@ function ProjectForm({ handleSubmit, btnText, projectData }) {
                 name="name" 
                 placeholder="Insira o nome do projeto"
                 handleOnChange={handleChange}
+                value={project.name ? project.name : ''}
             />
             <Input 
                 type="number"
@@ -64,6 +65,7 @@ function ProjectForm({ handleSubmit, btnText, projectData }) {
                 name="budget"
                 placeholder="Insira o orçamento do projeto"
                 handleOnChange={handleChange}
+                value={project.budget ? project.budget : ''}
             />
             <Select 
             // esse select é para que consiga renderiza na pág criar projeto como opções de categorias
@@ -71,7 +73,7 @@ function ProjectForm({ handleSubmit, btnText, projectData }) {
                 text="Selecione a categoria" 
                 options={categories}
                 handleOnChange={handleCategory}
-                value={project.categories ? project.categories.id : ''}
+                value={project.category ? project.category.id : ''}
             />
             <SubmitButton text={btnText}/>
         </form>
@@ -79,5 +81,3 @@ function ProjectForm({ handleSubmit, btnText, projectData }) {
 }
 
 export default ProjectForm;
-
-// projeto com bug, ele não ta selecionando as categorias. aula 24 - 14:20
