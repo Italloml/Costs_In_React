@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 
 import Message from "../layout/Message";
 import Container from '../layout/Container';
+import Loading from "../layout/Loading";
 import LinkBotton from "../layout/LinkBotton";
 import ProjectCard from "../Project/ProjectCard";
 
@@ -11,6 +12,8 @@ import styles from './Projects.module.css';
 
 function Projects() {
     const [project, setProject] = useState([])
+    // loading
+    const [removeLoading, setRemoveLoading] = useState(false)
 
     // Resgatando a mensagem por meio do hook
     const location = useLocation()
@@ -21,17 +24,21 @@ function Projects() {
 
     // usando para o request
     useEffect(() => {
-        fetch('http://localhost:5000/projects', {
-            method: 'GET', 
-            headers: {
-                'Content-type': 'application/json',
-            },
-        }).then((resp) => resp.json())
-          .then((data) => {
-            // setar projetos por meio da API
-            setProject(data)
-          })
-          .catch((err) => console.log(err))
+        // para mostrar do componente loading
+            setTimeout(() => {
+                fetch('http://localhost:5000/projects', {
+                method: 'GET', 
+                headers: {
+                    'Content-type': 'application/json',
+                },
+            }).then((resp) => resp.json())
+            .then((data) => {
+                // setar projetos por meio da API
+                setProject(data)
+                setRemoveLoading(true)
+            })
+            .catch((err) => console.log(err))
+        }, 300)
     }, [])
 
     return(
@@ -52,6 +59,11 @@ function Projects() {
                             category={projects.category.name}
                         />)
                 }
+                {!removeLoading && <Loading />}
+                {/* quando não houver projetos */}
+                {removeLoading && project.length === 0 && (
+                    <p>Não há projetos cadastrados!</p>
+                )}
             </Container>
         </div>
     )
