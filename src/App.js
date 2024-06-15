@@ -4,6 +4,7 @@ import Company from './Components/pages/Company';
 import Contact from './Components/pages/Contact';
 import NewProject from './Components/pages/NewProject';
 import Projects from './Components/pages/Projects';
+import Project from './Components/pages/Project';
 
 import Container from './Components/layout/Container';
 import Navbar from './Components/layout/Navbar';
@@ -20,17 +21,20 @@ function App() {
           <Route exact path='/'>
             <Home />
           </Route>
-          <Route exact path='/projects'>
+          <Route path='/projects'>
             <Projects />
           </Route>
-          <Route exact path='/company'>
+          <Route path='/company'>
             <Company />
           </Route>
-          <Route exact path='/contact'>
+          <Route path='/contact'>
             <Contact />
           </Route>
-          <Route exact path='/newproject'>
+          <Route path='/newproject'>
             <NewProject /> 
+          </Route>
+          <Route path='/project/:id'>
+            <Project /> 
           </Route>
         </Container>
       </Switch>
