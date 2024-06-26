@@ -1,5 +1,5 @@
 # Costs_In_React
 
 <p>
-    Projeto em desenvolvimento...
+    Projeto em desenvolvimento.
 </p>
