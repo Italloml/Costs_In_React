@@ -21,10 +21,8 @@ function Project() {
           .then((resp) => resp.json())
           .then((data) => {
             setProject(data)
-          .catch((err) => console.log(err))
-    })
-
-
+          })
+          .catch((err) => console.log)
     // monitorando o id do projeto
     }, [id])
 
