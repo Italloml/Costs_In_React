@@ -12,23 +12,12 @@
       "services": []
     },
     {
-      "id": "9d39",
-      "name": "testeaqt",
-      "budget": "1500",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": []
-    },
-    {
       "id": "a42f",
-      "name": "testeaqt",
+      "name": "projeto atualizado",
       "budget": "1200",
       "category": {
-        "id": "3",
-        "name": "DevOps"
+        "id": "2",
+        "name": "Desenvolvimento"
       },
       "cost": 0,
       "services": []
