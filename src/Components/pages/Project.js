@@ -15,6 +15,8 @@ function Project() {
     const [project, setProject] = useState([])
     // mostra / não mostra projeto
     const [showProjectForm, setShowProjectForm] = useState(false)
+    // serviço
+    const [showServiceForm, setShowServiceForm] = useState(false)
     // mensagem
     const [message, setMessage] = useState()
     // tipo da mensagem
@@ -41,6 +43,7 @@ function Project() {
 
     // Edição de posts do projeto
     function editPost(project) {
+        setMessage("")
         // budget validation
         if(project.budget < project.cost) {
             // mensagem
@@ -71,6 +74,10 @@ function Project() {
 
     function toggleProjectForm() {
         setShowProjectForm(!showProjectForm)
+    }
+
+    function toggleServiceForm() {
+        setShowServiceForm(!showServiceForm)
     }
 
     // condição ternária - fazendo edições dos projetos
@@ -106,6 +113,20 @@ function Project() {
                                 </div>
                             )}
                         </div>
+                        {/* área de Serviço */}
+                        <div className={styles.service_form_container}>
+                            <h2>Adicione um serviço:</h2>
+                            <button className={styles.btn} onClick={toggleServiceForm}>
+                                {!showServiceForm ? 'Adicionar serviço': 'Fechar'}
+                            </button>
+                            <div className={styles.project_info}>
+                                {showServiceForm && <div>Formulário do serviço</div>}
+                            </div>
+                        </div>
+                        <h2>Serivos</h2>
+                        <Container customClass='start'>
+                            <p>Item de Serviços</p>
+                        </Container>
                     </Container>
                 </div>
             ) : (
