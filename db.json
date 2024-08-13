@@ -8,8 +8,19 @@
         "id": "1",
         "name": "Infra"
       },
-      "cost": 0,
-      "services": []
+      "cost": 777,
+      "services": [
+        {
+          "name": "testeaqt",
+          "cost": "444",
+          "id": "78c151b8-8257-426d-8467-33dc5909dbd8"
+        },
+        {
+          "name": "novo serviço",
+          "cost": "333",
+          "id": "a6c11a22-6ecf-4682-8686-9ba19e986358"
+        }
+      ]
     },
     {
       "id": "a42f",
