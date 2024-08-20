@@ -111,8 +111,7 @@ function Project() {
         })
         .then((resp) => resp.json())
         .then((data) => {
-            // exibir os serviços
-            console.log(data)
+            setShowServiceForm(false)
         })
         .catch((err => console.log(err)))
     }
@@ -181,7 +180,7 @@ function Project() {
                         </div>
                         <h2>Serviços</h2>
                         <Container customClass='start'>
-                            {/* Exibição - se há serviço */}
+                            {/* Exibição - se há serviços */}
                             {services.length > 0 &&
                                 services.map((service) => (
                                     <ServiceCard 
@@ -195,7 +194,7 @@ function Project() {
                                     />
                                 ))  
                             }
-                            {services.length === 0 && <p>Não há serviços cadastrados</p>}
+                            {services.length === 0 && <p>Não há serviços cadastrados.</p>}
                         </Container>
                     </Container>
                 </div>

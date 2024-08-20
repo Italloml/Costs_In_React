@@ -1,93 +1,62 @@
 {
   "projects": [
     {
-      "id": "33b5",
-      "name": "fdwasd gf",
-      "budget": "2089",
+      "id": "a333",
+      "name": "testeaqt",
+      "budget": "1500",
       "category": {
-        "id": "1",
-        "name": "Infra"
+        "id": "4",
+        "name": "Design"
       },
-      "cost": null,
+      "cost": 1455,
       "services": [
         {
+          "name": "projeto novo",
+          "description": "serviço de hospedagem para um bog",
+          "cost": "1200",
+          "id": "b04b7fda-2755-4ac4-9f3f-cde85e34ac90"
+        },
+        {
           "name": "testeaqt",
-          "cost": "444",
-          "id": "78c151b8-8257-426d-8467-33dc5909dbd8"
+          "cost": "222",
+          "description": "efae",
+          "id": "426b6118-6a8f-4e12-a8c9-fe95372a88cd"
         },
         {
-          "name": "novo serviço",
-          "cost": "333",
-          "id": "a6c11a22-6ecf-4682-8686-9ba19e986358"
-        },
-        {
-          "name": "faça algo",
-          "cost": "200",
-          "id": "b1854ad3-f5e9-4e8b-bfa3-eb0048cab179"
-        },
-        {
-          "name": "faça algo",
-          "cost": "200",
-          "id": "b1854ad3-f5e9-4e8b-bfa3-eb0048cab179"
-        },
-        {
-          "name": "teste car",
-          "cost": "200",
-          "id": "204880ac-c303-4c24-a2fd-e21f4ac0fd91"
-        },
-        {
-          "name": "teste car",
-          "cost": "200",
-          "id": "204880ac-c303-4c24-a2fd-e21f4ac0fd91"
-        },
-        {
-          "name": "teste car",
-          "cost": "200",
-          "id": "204880ac-c303-4c24-a2fd-e21f4ac0fd91"
-        },
-        {
-          "name": "teste car",
-          "cost": "200",
-          "id": "204880ac-c303-4c24-a2fd-e21f4ac0fd91"
-        },
-        {
-          "id": "a41e169e-cb04-41d9-8ecf-7cf0ffa7db05"
-        },
-        {
-          "id": "abcadd58-8d79-4d4a-9ac5-cb29cf033497",
-          "name": "gggggggggg"
-        },
-        {
-          "id": "abcadd58-8d79-4d4a-9ac5-cb29cf033497",
-          "name": "gggggggggg"
-        },
-        {
-          "name": "novo serviço",
-          "cost": "30000",
-          "description": "serviço de hospedagem",
-          "id": "6bff5cff-bffa-40c4-b2ce-d9c10ee2bf82"
+          "name": "gfgfgg",
+          "cost": "33",
+          "description": "tdsgdf",
+          "id": "8cd80802-8d3a-4778-a34d-e77b7d784671"
         }
       ]
     },
     {
-      "id": "a42f",
-      "name": "projeto atualizado",
+      "id": "8522",
+      "name": "novo serviço",
       "budget": "1200",
       "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
+        "id": "1",
+        "name": "Infra"
       },
-      "cost": 800,
+      "cost": 803,
       "services": [
         {
-          "name": "fazer componente das páginas",
-          "cost": "400",
-          "id": "cf906ada-b710-490e-afdb-ef8e486aa0b1"
+          "name": "contratar dev JS",
+          "cost": "348",
+          "description": "fazer manutenção em sites;",
+          "id": "5405c83e-ec05-417d-a7ac-bad56d324291"
         },
         {
-          "name": "fazer componente das páginas",
+          "name": "projeto novo",
           "cost": "400",
-          "id": "cf906ada-b710-490e-afdb-ef8e486aa0b1"
+          "description": "incluir features",
+          "id": "2850cb2b-1ef5-44e1-b218-9210bbae3a6d"
+        },
+        {
+          "name": "novo serviço",
+          "cost": "55",
+          "description": "serviço de hospedagem",
+          "id": "2f2abbc7-d517-4302-9ecd-4d212b000985"
         }
       ]
     }
