@@ -23,7 +23,7 @@ function ServiceForm({ handleSubmit, textBtn, projectData }) {
 
     return(
         // formulário
-        <form onSubmit={submit} className={styles.for}>
+        <form onSubmit={submit} className={styles.form}>
             <Input 
               type="text"
               text="Nome do serviço"
@@ -39,10 +39,10 @@ function ServiceForm({ handleSubmit, textBtn, projectData }) {
               handleOnChange={handleChange}
             />
             <Input 
-              type="description"
+              type="text"
               text="Descrição do serviço"
-              name="name"
-              placeholder="Escreva o serviço"
+              name="description"
+              placeholder="Descreva o serviço"
               handleOnChange={handleChange}
             />
             {/* Butão do formulário */}

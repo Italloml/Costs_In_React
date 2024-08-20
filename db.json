@@ -8,7 +8,7 @@
         "id": "1",
         "name": "Infra"
       },
-      "cost": 777,
+      "cost": null,
       "services": [
         {
           "name": "testeaqt",
@@ -19,6 +19,53 @@
           "name": "novo serviço",
           "cost": "333",
           "id": "a6c11a22-6ecf-4682-8686-9ba19e986358"
+        },
+        {
+          "name": "faça algo",
+          "cost": "200",
+          "id": "b1854ad3-f5e9-4e8b-bfa3-eb0048cab179"
+        },
+        {
+          "name": "faça algo",
+          "cost": "200",
+          "id": "b1854ad3-f5e9-4e8b-bfa3-eb0048cab179"
+        },
+        {
+          "name": "teste car",
+          "cost": "200",
+          "id": "204880ac-c303-4c24-a2fd-e21f4ac0fd91"
+        },
+        {
+          "name": "teste car",
+          "cost": "200",
+          "id": "204880ac-c303-4c24-a2fd-e21f4ac0fd91"
+        },
+        {
+          "name": "teste car",
+          "cost": "200",
+          "id": "204880ac-c303-4c24-a2fd-e21f4ac0fd91"
+        },
+        {
+          "name": "teste car",
+          "cost": "200",
+          "id": "204880ac-c303-4c24-a2fd-e21f4ac0fd91"
+        },
+        {
+          "id": "a41e169e-cb04-41d9-8ecf-7cf0ffa7db05"
+        },
+        {
+          "id": "abcadd58-8d79-4d4a-9ac5-cb29cf033497",
+          "name": "gggggggggg"
+        },
+        {
+          "id": "abcadd58-8d79-4d4a-9ac5-cb29cf033497",
+          "name": "gggggggggg"
+        },
+        {
+          "name": "novo serviço",
+          "cost": "30000",
+          "description": "serviço de hospedagem",
+          "id": "6bff5cff-bffa-40c4-b2ce-d9c10ee2bf82"
         }
       ]
     },
@@ -30,8 +77,19 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 0,
-      "services": []
+      "cost": 800,
+      "services": [
+        {
+          "name": "fazer componente das páginas",
+          "cost": "400",
+          "id": "cf906ada-b710-490e-afdb-ef8e486aa0b1"
+        },
+        {
+          "name": "fazer componente das páginas",
+          "cost": "400",
+          "id": "cf906ada-b710-490e-afdb-ef8e486aa0b1"
+        }
+      ]
     }
   ],
   "categories": [
