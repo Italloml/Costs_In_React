@@ -8,57 +8,8 @@
         "id": "4",
         "name": "Design"
       },
-      "cost": 1455,
-      "services": [
-        {
-          "name": "projeto novo",
-          "description": "serviço de hospedagem para um bog",
-          "cost": "1200",
-          "id": "b04b7fda-2755-4ac4-9f3f-cde85e34ac90"
-        },
-        {
-          "name": "testeaqt",
-          "cost": "222",
-          "description": "efae",
-          "id": "426b6118-6a8f-4e12-a8c9-fe95372a88cd"
-        },
-        {
-          "name": "gfgfgg",
-          "cost": "33",
-          "description": "tdsgdf",
-          "id": "8cd80802-8d3a-4778-a34d-e77b7d784671"
-        }
-      ]
-    },
-    {
-      "id": "8522",
-      "name": "novo serviço",
-      "budget": "1200",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 803,
-      "services": [
-        {
-          "name": "contratar dev JS",
-          "cost": "348",
-          "description": "fazer manutenção em sites;",
-          "id": "5405c83e-ec05-417d-a7ac-bad56d324291"
-        },
-        {
-          "name": "projeto novo",
-          "cost": "400",
-          "description": "incluir features",
-          "id": "2850cb2b-1ef5-44e1-b218-9210bbae3a6d"
-        },
-        {
-          "name": "novo serviço",
-          "cost": "55",
-          "description": "serviço de hospedagem",
-          "id": "2f2abbc7-d517-4302-9ecd-4d212b000985"
-        }
-      ]
+      "cost": 0,
+      "services": []
     }
   ],
   "categories": [
