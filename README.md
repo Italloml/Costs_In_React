@@ -18,20 +18,20 @@
 
 * <strong>Javascript</stron>
 * <strong>React JS</strong>
-* Para o banco de dados foi utilizado o Json do js
+* Para o banco de dados foi utilizado o <strong>JSON</strong> do js
 
 ### Instalação
 
-* Utilização do gerenciamento de projetos do react js
+* Utilização do gerenciamento de projetos do react js: 
 <strong>npx create-react-app</strong>
 
-* Para quando ocorrer algum erro de depenência no nodejs do sistema operacional
+* Para quando ocorrer algum erro de depenência no nodejs do sistema operacional: 
 <strong>npm install</strong>
 
-* Execução do projeto
+* Execução do projeto: 
 <strong>npm start</strong>
 
-* Para a execução do backend, execução do banco de dados
+* Para a execução do backend, execução do banco de dados: 
 <strong>npm run backend</strong>
 
 ### Estrutura do projeto
