@@ -35,5 +35,5 @@
 <strong>npm run backend</strong>
 
 ### Estrutura do projeto
-<strong>Front-end</strong>: Toda parte visual da aplicação.
-<strong>Back-end</strong>: Toda parte de preenchimento de formulário que faz o envio para o banco de dados.
+* <strong>Front-end</strong>: Toda parte visual da aplicação.
+* <strong>Back-end</strong>: Toda parte de preenchimento de formulário que faz o envio para o banco de dados.
