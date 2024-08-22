@@ -7,7 +7,7 @@
 ### Descrição
 
 <p>
-    Projeto desenvolvido pelo canal Hora de Codar, com o objetivo de criar uma aplicação fullstack utilizando React JS. A aplicação permite o cadastro de projetos com informações sobre custos iniciais, armazenando esses dados em um banco de dados.
+    Projeto desenvolvido como parte de estudos complementares para construção sólida no conhecimento do front-end, com o objetivo de criar uma aplicação fullstack utilizando React JS. A aplicação permite o cadastro de projetos com informações sobre custos iniciais, armazenando esses dados em um banco de dados.
 </p>
 
 ### Funcionalidades
