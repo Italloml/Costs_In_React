@@ -10,6 +10,6 @@
 
 ### Funcionalidades
 
-<strong>Cadastro de Projetos</strong>: Usuários podem adicionar novos projetos através de um formulário.
-<strong>Visualização de Projetos</strong>: Exibe a lista de projetos cadastrados.
-<strong>Banco de Dados</strong>: Armazena as informações dos projetos e seus custos iniciais.
+* <strong>Cadastro de Projetos</strong>: Usuários podem adicionar novos projetos através de um formulário.
+* <strong>Visualização de Projetos</strong>: Exibe a lista de projetos cadastrados.
+* <strong>Banco de Dados</strong>: Armazena as informações dos projetos e seus custos iniciais.
