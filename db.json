@@ -1,15 +1,22 @@
 {
   "projects": [
     {
-      "id": "a333",
-      "name": "testeaqt",
-      "budget": "1500",
+      "id": "c32e",
+      "name": "meu primeiro projeto",
+      "budget": "1000",
       "category": {
-        "id": "4",
-        "name": "Design"
+        "id": "2",
+        "name": "Desenvolvimento"
       },
-      "cost": 0,
-      "services": []
+      "cost": 500,
+      "services": [
+        {
+          "name": "desenvolver features",
+          "cost": "500",
+          "description": "para um desenvolvimento melhor",
+          "id": "5d54ebe5-7bbf-4ec2-ba23-22430f98948a"
+        }
+      ]
     }
   ],
   "categories": [
