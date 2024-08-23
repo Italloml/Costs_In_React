@@ -1,3 +1,5 @@
+<img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">  <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">  <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">  <img align="center" alt="React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+
 # Costs_In_React
 
 ## Sistema de Controle de Gastos
@@ -5,7 +7,7 @@
 ### Descrição
 
 <p>
-    Projeto desenvolvido pelo canal Hora de Codar, com o objetivo de criar uma aplicação fullstack utilizando React JS. A aplicação permite o cadastro de projetos com informações sobre custos iniciais, armazenando esses dados em um banco de dados.
+    Projeto desenvolvido como parte de estudos complementares para construção sólida no conhecimento do front-end, com o objetivo de criar uma aplicação fullstack utilizando React JS. A aplicação permite o cadastro de projetos com informações sobre custos iniciais, armazenando esses dados em um banco de dados.
 </p>
 
 ### Funcionalidades
@@ -18,22 +20,22 @@
 
 * <strong>Javascript</stron>
 * <strong>React JS</strong>
-* Para o banco de dados foi utilizado o Json do js
+* Para o banco de dados foi utilizado o <strong>JSON</strong> do js
 
 ### Instalação
 
-* Utilização do gerenciamento de projetos do react js
-<strong>npx create-react-app</strong>
+* Utilização do gerenciamento de projetos do react js: 
+`[npx create-react-app]`
 
-* Para quando ocorrer algum erro de depenência no nodejs do sistema operacional
-<strong>npm install</strong>
+* Para quando ocorrer algum erro de depenência no nodejs do sistema operacional: 
+`[npm install]`
 
-* Execução do projeto
-<strong>npm start</strong>
+* Execução do projeto: 
+`[npm start]`
 
-* Para a execução do backend, execução do banco de dados
-<strong>npm run backend</strong>
+* Para a execução do backend, execução do banco de dados: 
+`[npm run backend]`
 
 ### Estrutura do projeto
-<strong>Front-end</strong>: Toda parte visual da aplicação.
-<strong>Back-end</strong>: Toda parte de preenchimento de formulário que faz o envio para o banco de dados.
+* <strong>Front-end</strong>: HTML5, CSS3.
+* <strong>Back-end</strong>: javascript, React JS.
