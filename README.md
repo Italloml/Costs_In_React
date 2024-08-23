@@ -39,3 +39,7 @@
 ### Estrutura do projeto
 * <strong>Front-end</strong>: HTML5, CSS3.
 * <strong>Back-end</strong>: javascript, React JS.
+
+### Imagem gif
+
+  <img src="src/img/cost.gif">
