@@ -25,16 +25,16 @@
 ### Instalação
 
 * Utilização do gerenciamento de projetos do react js: 
-<strong>npx create-react-app</strong>
+`[npx create-react-app]`
 
 * Para quando ocorrer algum erro de depenência no nodejs do sistema operacional: 
-<strong>npm install</strong>
+`[npm install]`
 
 * Execução do projeto: 
-<strong>npm start</strong>
+`[npm start]`
 
 * Para a execução do backend, execução do banco de dados: 
-<strong>npm run backend</strong>
+`[npm run backend]`
 
 ### Estrutura do projeto
 * <strong>Front-end</strong>: HTML5, CSS3.
